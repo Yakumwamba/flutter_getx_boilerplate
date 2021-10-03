@@ -1,90 +1,164 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_boilerplate/modules/home/home.dart';
-import 'package:flutter_getx_boilerplate/modules/home/tabs/tabs.dart';
+import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
+import 'package:flutter_getx_boilerplate/modules/books/books_controller.dart';
+import 'package:flutter_getx_boilerplate/modules/books/components/my_books.dart';
+import 'package:flutter_getx_boilerplate/modules/books/components/my_videos.dart';
+import 'package:flutter_getx_boilerplate/routes/routes.dart';
 import 'package:flutter_getx_boilerplate/shared/shared.dart';
-
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
-class HomeScreen extends GetView<HomeController> {
+//import 'components/my_links.dart';
+
+class HomeScreen extends GetView<BooksController> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async => false,
-      child: Obx(() => _buildWidget()),
-    );
-  }
-
-  Widget _buildWidget() {
-    return Scaffold(
-      body: Center(
-        child: _buildContent(controller.currentTab.value),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          _buildNavigationBarItem(
-            "Home",
-            MainTabs.home == controller.currentTab.value
-                ? "icon_home_activited.svg"
-                : "icon_home.svg",
+      child: SafeArea(
+        child: Scaffold(
+          body: Center(
+            child: _buildItems(context),
           ),
-          _buildNavigationBarItem(
-            "Discover",
-            MainTabs.discover == controller.currentTab.value
-                ? "icon_discover_activited.svg"
-                : "icon_discover.svg",
-          ),
-          _buildNavigationBarItem(
-            "Resource",
-            "icon_resource.svg",
-          ),
-          _buildNavigationBarItem(
-            "Inbox",
-            MainTabs.inbox == controller.currentTab.value
-                ? "icon_inbox_activited.svg"
-                : "icon_inbox.svg",
-          ),
-          _buildNavigationBarItem(
-            "Me",
-            MainTabs.me == controller.currentTab.value
-                ? "icon_me_activited.svg"
-                : "icon_me.svg",
-          )
-        ],
-        type: BottomNavigationBarType.fixed,
-        unselectedItemColor: ColorConstants.black,
-        currentIndex: controller.getCurrentIndex(controller.currentTab.value),
-        selectedItemColor: ColorConstants.black,
-        selectedLabelStyle: TextStyle(
-          fontSize: 14,
-          fontWeight: FontWeight.bold,
         ),
-        onTap: (index) => controller.switchTab(index),
       ),
     );
   }
 
-  Widget _buildContent(MainTabs tab) {
-    switch (tab) {
-      case MainTabs.home:
-        return controller.mainTab;
-      case MainTabs.discover:
-        return controller.discoverTab;
-      case MainTabs.resource:
-        return controller.resourceTab;
-      case MainTabs.inbox:
-        return controller.inboxTab;
-      case MainTabs.me:
-        return controller.meTab;
-      default:
-        return controller.mainTab;
-    }
-  }
-
-  BottomNavigationBarItem _buildNavigationBarItem(String label, String svg) {
-    return BottomNavigationBarItem(
-      icon: SvgPicture.asset('assets/svgs/$svg'),
-      label: label,
+  Widget _buildItems(BuildContext context) {
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Container(
+                  height: 100,
+                  decoration: BoxDecoration(
+                      color: Colors.grey,
+                      image: DecorationImage(
+                          fit: BoxFit.cover,
+                          image:
+                              AssetImage("assets/images/basic_education.jpg"))),
+                  width: Get.width,
+                ),
+              ),
+              Container(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Get.toNamed("/books");
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: Container(
+                            height: 60,
+                            width: Get.width,
+                            decoration: BoxDecoration(
+                                color: ColorConstants.darkGray,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(10))),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'Foundation Phase',
+                                  style: TextStyle(
+                                    fontSize: 25,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            )),
+                      ),
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Get.toNamed("/intermediate_phase");
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(20),
+                        child: Container(
+                            height: 60,
+                            width: Get.width,
+                            decoration: BoxDecoration(
+                              color: ColorConstants.darkGray,
+                            ),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'Intermidate Phase',
+                                  style: TextStyle(
+                                    fontSize: 25,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            )),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(20),
+                      child: Container(
+                          height: 60,
+                          width: Get.width,
+                          decoration: BoxDecoration(
+                            color: ColorConstants.darkGray,
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Text(
+                                'Senior Phase',
+                                style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          )),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.all(20),
+                      child: Container(
+                          height: 60,
+                          width: Get.width,
+                          decoration: BoxDecoration(
+                            color: ColorConstants.darkGray,
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Text(
+                                'FET Phase',
+                                style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          )),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

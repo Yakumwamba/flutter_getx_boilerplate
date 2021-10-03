@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="REVISIT-AFTER" content="1 DAYS" />
+<meta name="RATING" content="GENERAL" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta content="text/javascript" http-equiv="Content-Script-Type" />
+<meta content="text/css" http-equiv="Content-Style-Type" />
+<title>
+	National Department of Basic Education > Home
+</title><meta id="MetaDescription" name="DESCRIPTION" content="South African National Department of Basic Education" /><meta id="MetaKeywords" name="KEYWORDS" content="education, basic education, department of basic education, department of education, DBE, DoBE, DOE, doe, dbe" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><link href="/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Galore/skin.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/Galore/container.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Galore/bootstrap/css/bootstrap.min.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Galore/common/css/base.css?cdv=110" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/Galore/common/css/font-awesome.min.css?cdv=110" type="text/css" rel="stylesheet"/><script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=110" type="text/javascript"></script><script src="/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=110" type="text/javascript"></script><link id="eds_skin_Galore_page_additionalResource_layout_boxed_css_0" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Galore/assets/css/layout/boxed.css" /><link id="skinStyleCss_Galore_style_predefined_orange" rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Galore/assets/css/predefined/orange.css" />     
+        
+			    <script type="text/javascript">
+			      var _gaq = _gaq || [];
+			      _gaq.push(['_setAccount', 'UA-43612931-1']);
+			      _gaq.push(['_trackPageview']);
+			 
+			      (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			      })();
+			    </script>
+        
+		  <meta name="viewport" content="width=device-width, initial-scale=1" /></head>
+<body id="Body">
+    
+    <form method="post" action="/Home.aspx" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="tgikqqtv/Ep2rURs633JNVltT+bY73M0DvDO606T53x4UmHLQcX4Os4yp5zJcpznjNcuZpS76AJjlCszPfR49c+Emay9b/Na4gS/jwMuFfSjto7MDg3OKQTWZzP8K8iNr4rwFNjigWEu9ynyK4a2jq7pj7uieW+IYb7figb6DkIdVADCK29jHvwnSwOt5SkQMHZ6qavQZ8xjTGR8CTHSuZw5Omw8fhwcQiV2mEBqOnNHYizs8TWy66P/nIORv7pezR4820r8D8YOe/jEIb8wNq9/MTEuHISWgfjPJK7nDIRPoJkvAbg39ezDIP7UPHusb2G+I1VWwapsH64aaENvINDKMjMij2RuhJB6Q/24fKalVmmwjbHYMbuCktyb9Wv9LLI1YpMn7k8YrSFF3C9TuYuTLMZT/LtgLAngxDZcdxhk8dPn7ficngILjCCYRaHxrcAS4KHE+2wJBqO+G7d/1PEJEH5Yp4sPI+9ZOhDFncRpxpdCXuOjs8XvtaD9+TN4MHnNHZGs1t3d4dPnnOPILtEpKRsIhWGxzpuiNAODJCGBNhigCP1ATxCozKeMA6Z8G15T8zk4ptLZpCm8l61m19s4RECkjLa4oMtCO3AyX/i04YCMvEzKqNmFi7Th3J+VaMLDDiHWLTkElyZEvY/WLLFIHuc5K7riN7g42AMw3Xtmxye7w8FTV3jNAsCkbx12uTFFZgHg3Ql0RsN3BzDoSgocQzCyy3qEpHh1kGeSoImAADGMAZbVjPaSPOHtuwhVAPGB8L0HArpukStVFoas3UyrGONCn2rQYRzVUSanfldmPD043wLjdjAkf79DeFl/cZgmhg==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV3IFg8UsCEJp7Vgt8FEolpE2ZGjEhpKghX2somLAKnizjWpMeI1&amp;t=637454142340000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Iplvkt-mZgW02JgacmuU3iRLF9nLBwj379wN4p42GYOUvD_NUbGzfsD_zhxLB0FfPhW-IPJy9gQSJ8_R09jRwVE5DHfYpktFjFjl8MbuHIL1LCHw7bkvGE4ADAsnA2&amp;t=363be08" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoKJKO0R_IHw0jpAT8xIsRdKpoXuKnxOWb6bxcQx2jrPMyMZAWHJFu09JpynCSgZ3bZ5zFYxCdC-X_59pFnWboZ1rnpE2-do1C-Zl0i7_rTPIEZbBWio7OANc5zvQEu8027HvDpf0&amp;t=363be08" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2Jz2+fNnFj82JKoL6lAX0vGBJoDJIMIALqMTNZqX2v5V0zWNDXofsVTjA2KNltBR1jCH1l1pEKLYCI5HZJl8j4co6CQtjZys8sIciVGDC+RbvZ/n" />
+</div><script src="/js/dnn.modalpopup.js?cdv=110" type="text/javascript"></script><script src="/Portals/_default/Skins/Galore/bootstrap/js/bootstrap.min.js?cdv=110" type="text/javascript"></script><script src="/Portals/_default/Skins/Galore/common/js/main.js?cdv=110" type="text/javascript"></script><script src="/js/dnncore.js?cdv=110" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+        
+        
+<!--CDF(Css|/Portals/_default/Skins/Galore/bootstrap/css/bootstrap.min.css?cdv=110)-->
+<!--CDF(Css|/Portals/_default/Skins/Galore/common/css/base.css?cdv=110)-->
+<!--CDF(Javascript|/Portals/_default/Skins/Galore/bootstrap/js/bootstrap.min.js?cdv=110)-->
+<!--CDF(Javascript|/Portals/_default/Skins/Galore/common/js/main.js?cdv=110)-->
+<!--CDF(Css|/Portals/_default/Skins/Galore/common/css/font-awesome.min.css?cdv=110)-->
+
+
+<div class="EasyDNNSkin_Galore">
+	<div class="eds_headerContainer">
+		<!-- header_StyleWizardTemplateSection -->
+		<div class="eds_fixedHeader eds_headerStyle4 eds_headerHeight" data-placeholder-selector=".eds_headerHeightHolder">
+			<div class="eds_headerBackground">
+				<header class="eds_header eds_headerBigSearch container-fluid clearfix">
+					<div id="dnn_headerBanner" class="eds_headerBanner DNNEmptyPane"></div>
+					
+                                        			<span class="KFSSearch"><a href="http://www.education.gov.za/SearchDBE.aspx">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a></span>
+					<div class="eds_userLogin pull-left">
+						
+
+						
+					</div>
+					
+					<div class="eds_logo"><a id="dnn_dnnLOGO_hypLogo" title="National Department of Basic Education" href="https://www.education.gov.za/Home.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/dbeLogo2.png?ver=2015-12-02-121800-540" alt="National Department of Basic Education" /></a></div>
+				</header>
+				<div class="responsAbilityMenu eds_menuType4">
+					<div class="raMenuTriggerWrapper">
+						<span class="raMenuTrigger">Menu</span>
+					</div>
+					<div class="raMenuWrapper"><div class="eds_menuleftBg"></div><ol>
+  <li class="edsmm_menuItem edsmm_first edsmm_active"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Home.aspx">Home</a><span class="edsmm_childIndicator"></span></span></li>
+  <li class="edsmm_menuItem edsmm_hasChild edsmm_disabled"><span><span class="edsmm_itemContainer">About Us</span><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/AboutUs/AboutDBE.aspx">About DBE</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/AboutUs/DBEStructure.aspx">DBE Structure</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/AboutUs/ContacttheDBE.aspx">Contact the DBE</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_last edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/AboutUs/ProvincialDepartments.aspx">Provincial Departments</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_2">
+              <div class="edsmm_menuListsContainer">
+                <ol>
+                  <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.westerncape.gov.za/dept/education">Western Cape</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://ncdoe.ncpg.gov.za">Northern Cape</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.nwdesd.gov.za/">North West</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.mpumalanga.gov.za/education">Mpumalanga</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.edu.limpopo.gov.za">Limpopo</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.kzneducation.gov.za">KwaZulu-Natal</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.education.fs.gov.za/">Free State</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.ecdoe.gov.za">Eastern Cape</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="http://www.education.gpg.gov.za">Gauteng</a><span class="edsmm_childIndicator"></span></span></li>
+                </ol>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </li>
+  <li class="edsmm_menuItem edsmm_hasChild edsmm_disabled"><span><span class="edsmm_itemContainer">Newsroom</span><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/MediaTeam.aspx">Media Team</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/MediaReleases.aspx">Media Releases</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/Speeches.aspx">Speeches</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/BasicEducationSectorInsights.aspx">Basic Education Sector Insights</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/NewsletterThuto.aspx">Newsletter: Thuto</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/NewsletterDGProvincialEngagements.aspx">Newsletter: DG Provincial Engagements</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Newsroom/ParliamentaryQuestions.aspx">Parliamentary Questions</a><span class="edsmm_childIndicator"></span></span></li>
+        </ol>
+      </div>
+    </div>
+  </li>
+  <li class="edsmm_menuItem edsmm_hasChild edsmm_disabled"><span><span class="edsmm_itemContainer">Resources</span><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Reports.aspx">Reports</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation.aspx">Legislation</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_2">
+              <div class="edsmm_menuListsContainer">
+                <ol>
+                  <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/Acts.aspx">Acts</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/CallforComments.aspx">Call for Comments</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/GovernmentNotices.aspx">Government Notices</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/GreenPapers.aspx">Green Papers</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/Regulations.aspx">Regulations</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Legislation/WhitePapers.aspx">White Papers</a><span class="edsmm_childIndicator"></span></span></li>
+                </ol>
+              </div>
+            </div>
+          </li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Policies.aspx">Policies</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Publications.aspx">Publications</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Forms.aspx">Forms</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Resources/Manuals.aspx">Manuals</a><span class="edsmm_childIndicator"></span></span></li>
+        </ol>
+      </div>
+    </div>
+  </li>
+  <li class="edsmm_menuItem edsmm_hasChild edsmm_disabled"><span><span class="edsmm_itemContainer">Programmes</span><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/ABCMotsepeSchoolsEisteddfod.aspx">ABC Motsepe Schools Eisteddfod</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/ASIDI.aspx">ASIDI</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/EMIS.aspx">EMIS</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="http://www.funzalushaka.doe.gov.za/">Funza Lushaka</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/GenderBasedViolence.aspx">Gender Based Violence</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/HealthPromotion.aspx">Health Promotion</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/NationalSchoolNutritionProgramme.aspx">National School Nutrition Programme</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/NEEDU.aspx">NEEDU</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/QLTC.aspx">QLTC</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/QualityAssuranceandSkillsDevelopment.aspx">Quality Assurance and Skills Development</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/SAFE.aspx">SAFE</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/SafetyinSchools.aspx">Safety in Schools</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/SecondChanceProgramme.aspx">Second Chance Programme</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/SectorProgress,PerformanceandResearch.aspx">Sector Progress, Performance and Research</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/SpellingBee.aspx">Spelling Bee</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/EarlyGradeReadingStudy.aspx">Early Grade Reading Study</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/Read2Lead.aspx">Read2Lead</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/HomeEducation.aspx">Home Education</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/MootCourt.aspx">Moot Court</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/InclusiveEducation.aspx">Inclusive Education</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_2">
+              <div class="edsmm_menuListsContainer">
+                <ol>
+                  <li class="edsmm_menuItem edsmm_first edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/InclusiveEducation/SouthAfricanSignLanguage.aspx">South African Sign Language</a><span class="edsmm_childIndicator"></span></span></li>
+                </ol>
+              </div>
+            </div>
+          </li>
+          <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Programmes/PhysicalPlanningandRuralSchooling.aspx">Physical Planning and Rural Schooling</a><span class="edsmm_childIndicator"></span></span></li>
+        </ol>
+      </div>
+    </div>
+  </li>
+  <li class="edsmm_menuItem edsmm_hasChild edsmm_disabled"><span><span class="edsmm_itemContainer">Curriculum</span><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/NationalCurriculumStatementsGradesR-12.aspx">National Curriculum Statements Grades R-12</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/NationalCurriculumFrameworkforChildrenfromBirthtoFour.aspx">National Curriculum Framework for Children from Birth to Four</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/CurriculumAssessmentPolicyStatements(CAPS).aspx">Curriculum Assessment Policy Statements (CAPS)</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM).aspx">Learning and Teaching Support Materials (LTSM)</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_2">
+              <div class="edsmm_menuListsContainer">
+                <ol>
+                  <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/LTSMNationalCatalogue.aspx">LTSM National Catalogue</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/DigitalContent.aspx">Digital Content</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/Workbooks.aspx">Workbooks</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx">Mind the Gap Study Guides</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/GradedReadersandBigBookHL.aspx">Graded Readers and Big Book HL</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/IIALResources.aspx">IIAL Resources</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/LearningandTeachingSupportMaterials(LTSM)/VocationallyOrientedSubjects.aspx">Vocationally Oriented Subjects</a><span class="edsmm_childIndicator"></span></span></li>
+                </ol>
+              </div>
+            </div>
+          </li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations.aspx">National Senior Certificate (NSC) Examinations</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/NationalCirculars.aspx">National Circulars</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/AnnualNationalAssessments.aspx">Annual National Assessments</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Curriculum/SeniorCertificate.aspx">Senior Certificate</a><span class="edsmm_childIndicator"></span></span></li>
+        </ol>
+      </div>
+    </div>
+  </li>
+  <li class="edsmm_menuItem edsmm_last edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor.aspx">Information for...</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_1">
+      <div class="edsmm_menuListsContainer">
+        <ol>
+          <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/CertificationServices.aspx">Certification Services</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Learners.aspx">Learners</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/ParentsandGuardians.aspx">Parents and Guardians</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_hasChild"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Teachers.aspx">Teachers</a><span class="edsmm_childIndicator"></span></span><div class="edsmm_level_2">
+              <div class="edsmm_menuListsContainer">
+                <ol>
+                  <li class="edsmm_menuItem edsmm_first"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Teachers/InitialTeacherEducation.aspx">Initial Teacher Education</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Teachers/Registerasaneducator.aspx">Register as an educator</a><span class="edsmm_childIndicator"></span></span></li>
+                  <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Teachers/NationalTeachingAwards.aspx">National Teaching Awards</a><span class="edsmm_childIndicator"></span></span></li>
+                </ol>
+              </div>
+            </div>
+          </li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Principals.aspx">Principals</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/SGBs.aspx">SGBs</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/EducationDistricts.aspx">Education Districts</a><span class="edsmm_childIndicator"></span></span></li>
+          <li class="edsmm_menuItem edsmm_last"><span><a class="edsmm_itemContainer" href="https://www.education.gov.za/Informationfor/Researcher.aspx">Researcher</a><span class="edsmm_childIndicator"></span></span></li>
+        </ol>
+      </div>
+    </div>
+  </li>
+</ol><div class="eds_menuRightBg"></div></div>
+				</div>
+			</div>
+		</div>
+		<div class="eds_headerHeightHolder"></div><!-- header_StyleWizardTemplateSectionEnd -->
+		<!-- pageDetails_StyleWizardTemplateSection -->
+		<div class="eds_pageDetails eds_pageDetails4">
+			<div class="eds_pageDetailsPadding"></div>
+			<div class="container-fluid">
+				
+			</div>
+		</div><!-- pageDetails_StyleWizardTemplateSectionEnd -->
+		<div id="dnn_headerWide" class="eds_headerContent DNNEmptyPane"></div>
+	</div>
+	<div id="dnn_ContentPane" class="eds_container container-fluid DNNEmptyPane"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="dnn_leftPane" class="col-sm-8 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3769"><a name="3769"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr3769_ContentPane"><!-- Start_Module_3769 --><div id="dnn_ctr3769_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3769_HtmlModule_lblContent" class="Normal">
+	<p>&nbsp;</p>
+
+<div class="carousel slide" data-ride="carousel" id="carousel-example-captions" style="max-width: 750px;">
+<ol class="carousel-indicators">
+ <li class="active" data-slide-to="0" data-target="#carousel-example-captions">&nbsp;</li>
+ <li data-slide-to="1" data-target="#carousel-example-captions">&nbsp;</li>
+ <li data-slide-to="2" data-target="#carousel-example-captions">&nbsp;</li>
+ <li data-slide-to="3" data-target="#carousel-example-captions">&nbsp;</li>
+ <li data-slide-to="4" data-target="#carousel-example-captions">&nbsp;</li>
+</ol>
+
+<div class="carousel-inner">
+<div class="item active"><a href="/ArchivedDocuments/ArchivedArticles/WEFSummit21.aspx"><img alt="" src="/portals/0/Images/2021/MinWEF.jpg" /></a>
+
+<div class="carousel-caption">
+<h3><a href="/ArchivedDocuments/ArchivedArticles/WEFSummit21.aspx">World Economic Forum</a></h3>
+
+<p><a href="/ArchivedDocuments/ArchivedArticles/WEFSummit21.aspx">Sustainable Development Impact Summit 2021 deliberates closing the education gap</a></p>
+</div>
+</div>
+
+<div class="item"><a href="/ArchivedDocuments/ArchivedArticles/NTAAdjudicationFinalised.aspx"><img alt="" src="/portals/0/Images/2021/NTA318.jpg" /></a>
+
+<div class="carousel-caption">
+<h3><a href="/ArchivedDocuments/ArchivedArticles/NTAAdjudicationFinalised.aspx">National Teaching Awards</a></h3>
+
+<p><a href="/ArchivedDocuments/ArchivedArticles/NTAAdjudicationFinalised.aspx">The adjudication process for the reimagined 21st National Teaching Awards is finalised</a></p>
+</div>
+</div>
+
+<div class="item"><a href="/ArchivedDocuments/ArchivedArticles/CSEScriptedPlansForSecSchools.aspx"><img alt="" src="/portals/0/Images/2021/CSE318.jpg" /></a>
+
+<div class="carousel-caption">
+<h3><a href="/ArchivedDocuments/ArchivedArticles/CSEScriptedPlansForSecSchools.aspx">Comprehensive Sexuality Education</a></h3>
+
+<p><a href="/ArchivedDocuments/ArchivedArticles/CSEScriptedPlansForSecSchools.aspx">Training on Scripted Lesson Plans for teaching of CSE shifts to secondary school educators</a></p>
+</div>
+</div>
+
+<div class="item"><a href="/ArchivedDocuments/ArchivedArticles/SAEarlyYearsIndex2021.aspx"><img alt="" src="/portals/0/Images/2021/ECIndex.jpg" /></a>
+
+<div class="carousel-caption">
+<h3><a href="/ArchivedDocuments/ArchivedArticles/SAEarlyYearsIndex2021.aspx">Early Years Index</a></h3>
+
+<p><a href="/ArchivedDocuments/ArchivedArticles/SAEarlyYearsIndex2021.aspx">South African Early Years Index and Baseline Assessment will enhance Early Childhood Development</a></p>
+</div>
+</div>
+</div>
+
+<p><a class="center carousel-control" data-slide="prev" href="#carousel-example-captions" role="button"><span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" data-slide="next" href="#carousel-example-captions" role="button"> <span class="glyphicon glyphicon-chevron-right"></span> </a></p>
+</div>
+
+<p>&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_3769 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-3731"><a name="3731"></a>
+<div class="eds_containers_Galore eds_templateGroup_titleStyle1 eds_template_TitleLeft eds_titleSeparator">
+	<h2><span id="dnn_ctr3731_dnnTITLE_titleLabel" class="eds_containerTitle">Welcome to the Department of Basic Education!</span>
+
+
+</h2>
+	<div id="dnn_ctr3731_ContentPane"><!-- Start_Module_3731 --><div id="dnn_ctr3731_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3731_HtmlModule_lblContent" class="Normal">
+	<p><span style="font-size: larger;"><span style="font-family: arial;">Welcome to the National Department of Basic Education&rsquo;s website. Here you will find information on, amongst others, the <a href="/Curriculum/NationalCurriculumStatementsGradesR-12.aspx">Curriculum</a>, what to do if you&rsquo;ve <a href="/Informationfor/CertificationServices.aspx">lost your matric certificate</a>, links to <a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations.aspx">previous Grade 12 exam papers</a> for revision purposes and our <a href="/AboutUs/ContacttheDBE.aspx">contact details</a> should you need to get in touch with us.</span></span><span style="font-size: larger;"><span style="font-family: arial;"> </span></span></p>
+
+<p><span style="font-size: larger;"><span style="font-family: arial;">Whether you are a <a href="/Informationfor/Learners.aspx">learner</a> looking for study guides, a <a href="/Informationfor/ParentsandGuardians.aspx">parent/guardian</a> wanting a school for your child, a new <a href="/Informationfor/Teachers.aspx">teacher</a> seeking employment or a <a href="/Informationfor/Researcher.aspx">researcher</a> looking for education policies, we&rsquo;ve taken great care to ensure that you can easily access the information on the website. Should you, however, not find what you&rsquo;re looking for please send an email to webmaster@dbe.gov.za and we will gladly assist.</span></span></p>
+
+</div>
+
+</div><!-- End_Module_3731 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-4175"><a name="4175"></a>
+<div class="eds_containers_Galore eds_templateGroup_titleWithBackground2 eds_template_TitleWithBackground2">
+	<h2><span id="dnn_ctr4175_dnnTITLE_titleLabel" class="eds_containerTitle">Current Campaigns</span>
+
+
+</h2>
+	<div id="dnn_ctr4175_ContentPane"><!-- Start_Module_4175 --><div id="dnn_ctr4175_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr4175_HtmlModule_lblContent" class="Normal">
+	<div class="row">
+<div class="col-sm-4"><a href="/Programmes/SecondChanceProgramme.aspx"><img alt="" src="/portals/0/Images/2ndChanceLogo.jpg" style="width: 220px; height: 102px;" /></a></div>
+
+<div class="col-sm-4"><a href="/Home/Read2Lead/tabid/976/Default.aspx"><img alt="" src="/portals/0/Images/Read2LeadLogo.jpg" style="width: 225px; height: 102px;" /></a></div>
+
+<div class="col-sm-4"><a href="/Informationfor/Teachers/NationalTeachingAwards.aspx"><img alt="" src="/portals/0/Images/NTA-LogoThumb.gif" style="width: 220px; height: 90px;" /></a></div>
+</div>
+
+<p>&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_4175 --></div>
+</div>
+
+</div></div>
+			<div id="dnn_sidebarPane" class="col-sm-4 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-9674"><a name="9674"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr9674_ContentPane"><!-- Start_Module_9674 --><div id="dnn_ctr9674_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr9674_HtmlModule_lblContent" class="Normal">
+	<p>&nbsp;</p>
+
+<p><br />
+<br />
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/videoseries?list=PLd1l7bRT31sHE3VM08J9vX7xgDfzN5GA1" title="YouTube video player" width="360"></iframe></p>
+
+</div>
+
+</div><!-- End_Module_9674 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-7914"><a name="7914"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr7914_ContentPane"><!-- Start_Module_7914 --><div id="dnn_ctr7914_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr7914_HtmlModule_lblContent" class="Normal">
+	<p><a class="twitter-timeline" data-height="250" data-width="380" href="https://twitter.com/DBE_SA?ref_src=twsrc%5Etfw">Tweets by DBE_SA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+</div>
+
+</div><!-- End_Module_7914 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-4121"><a name="4121"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr4121_ContentPane"><!-- Start_Module_4121 --><div id="dnn_ctr4121_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr4121_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="https://www.facebook.com/BasicEd/" target="_blank"><img alt="Basic Education's Facebook page" src="/portals/0/Images/dbeFacebook.png" style="width: 50px; height: 50px;" /></a>&nbsp;&nbsp; &nbsp;<a href="http://www.twitter.com/dbe_sa" target="_blank"><img alt="Basic Education's Twitter page" src="/portals/0/Images/dbetwitter.png" style="width: 50px; height: 50px;" /></a>&nbsp;&nbsp; <a href="https://www.youtube.com/user/DBESouthAfrica" target="_blank"><img alt="Basic Education's YouTube channel" src="/portals/0/Images/dbeYouTube.png" style="width: 95px; height: 50px;" /></a>&nbsp; <a href="https://webmail.doe.gov.za/owa/" target="_blank"><img alt="Basic Education Webmail" src="/portals/0/Images/dbeWebmail.png" style="width: 57px; height: 49px;" /></a>&nbsp;<a href="https://smartdbe.doe.gov.za" target="_blank"><img alt="esubmission" src="/portals/0/Images/esubmission.png" style="width: 57px; height: 48px;" /></a>&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_4121 --></div>
+</div>
+</div><div class="DnnModule DnnModule-DNN_Media DnnModule-3733"><a name="3733"></a>
+<div class="eds_containers_Galore eds_templateGroup_boxTitleWithBackgroundAndCarret eds_template_BoxTitleWithBackgroundAndCarret">
+	<h2><span id="dnn_ctr3733_dnnTITLE_titleLabel" class="eds_containerTitle">Infographic: Education in SA</span>
+
+
+</h2>
+	<div id="dnn_ctr3733_ContentPane"><!-- Start_Module_3733 --><div id="dnn_ctr3733_ModuleContent" class="DNNModuleContent ModDNNMediaC">
+	<div style='width:100%' align='center'><a href='/LinkClick.aspx?link=Documents%2fPublications%2fSchool+Realities+2019+Final+.pdf&tabid=36&portalid=0&mid=3733' target='_new' title='Education Infographic'><img src='/LinkClick.aspx?link=images%2fhomepage%2feducationinfographic2019.jpg&tabid=36&portalid=0&mid=3733' Align='Middle'  Width='316px'  Height='224px'  alt='Education Infographic' border='0'/></a></div>
+</div><!-- End_Module_3733 --></div>
+</div>
+
+</div></div>
+		</div>
+		<div class="row">
+			<div id="dnn_sidebarLeftPane" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			<div id="dnn_rightPane" class="col-sm-8 eds_container DNNEmptyPane"></div>
+		</div>
+		<div class="row">
+			<div id="dnn_contentLeftPane" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			<div id="dnn_contentMiddlePane" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			<div id="dnn_contentRightPane" class="col-sm-4 eds_container DNNEmptyPane"></div>
+		</div>
+	</div>
+	<div class="eds_contentBellowBackground">
+		<div id="dnn_contentPane2" class="eds_container container-fluid DNNEmptyPane"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="dnn_leftPane2" class="col-sm-6 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3740"><a name="3740"></a>
+<div class="eds_containers_Galore eds_templateGroup_default eds_template_Default eds_style_predefined_grey">
+	<h2 class="eds_bottomBorder"><span id="dnn_ctr3740_dnnTITLE_titleLabel" class="eds_containerTitle">Latest News</span>
+
+
+</h2>
+	<div id="dnn_ctr3740_ContentPane"><!-- Start_Module_3740 --><div id="dnn_ctr3740_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3740_HtmlModule_lblContent" class="Normal">
+	<div class="row">
+<div class="col-sm-6">
+<div class="eds_infoBox eds_successBox">
+<div class="eds_info_1">
+<h3>COVID-19</h3>
+
+<p><img alt="" src="/portals/0/Images/covid19thumb.jpg" style="width: 250px; height: 155px;" /><br />
+<strong>Online resources to support learning</strong></p>
+</div>
+
+<div class="eds_info_2">
+<h3>Online resources to support learning</h3>
+
+<p><span style="font-size: larger;"><span style="font-family: arial;"><span style="color: rgb(0, 0, 0);">Online resources for schools, parents/caregivers and learners to support learning during the COVID-19 pandemic. </span></span></span></p>
+</div>
+<a href="/covid19supportpackage.aspx">Read More</a></div>
+</div>
+
+<div class="col-sm-6">
+<div class="eds_infoBox eds_dangerBox">
+<div class="eds_info_1">
+<h3>BEEI</h3>
+
+<p><img alt="" src="/portals/0/Images/BEEI1Header.jpg" style="width: 250px; height: 155px;" /><br />
+<strong>Basic Education Employment Initiative</strong></p>
+</div>
+
+<div class="eds_info_2">
+<h3>BEEI</h3>
+
+<p><span style="font-size: larger;">The department seeks to provide 287 000 unemployed young people, (+/-192 000 Education Assistants and +/- 95 000 General School Assistants) employment and training opportunities in the education sector, as part of the Presidential Youth Employment Initiative (PYEI)-Basic Education Employment Initiative (BEEI), which forms part of the Presidential Employment Stimulus (PES), seeking to mitigate the devastating economic challenges brought about by the COVID-19 pandemic.</span></p>
+</div>
+<a href="/BEEI.aspx">Read More</a></div>
+</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_3740 --></div>
+</div>
+
+</div></div>
+				<div id="dnn_rightPane2" class="col-sm-6 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3735"><a name="3735"></a>
+<div class="eds_containers_Galore eds_templateGroup_default eds_template_Default eds_style_predefined_grey">
+	<h2 class="eds_bottomBorder"><span id="dnn_ctr3735_dnnTITLE_titleLabel" class="eds_containerTitle">Newsroom</span>
+
+
+</h2>
+	<div id="dnn_ctr3735_ContentPane"><!-- Start_Module_3735 --><div id="dnn_ctr3735_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3735_HtmlModule_lblContent" class="Normal">
+	<div class="eds_Tabs eds_Tabs4">
+<ul class="eds_tabsNav">
+ <li class="edsTabulator_tabTrigger"><span style="font-size: larger;"><span style="font-family: arial;">Statements</span></span></li>
+ <li class="edsTabulator_tabTrigger"><span style="font-size: larger;"><span style="font-family: arial;">Speeches</span></span></li>
+ <li class="edsTabulator_tabTrigger"><span style="font-size: larger;"><span style="font-family: arial;">Sector Insights</span></span></li>
+ <li class="edsTabulator_tabTrigger"><span style="font-size: larger;"><span style="font-family: arial;">Parliament Q&amp;A</span></span></li>
+</ul>
+
+<div class="edsTabulator_tabsWrapper">
+<div class="edsTabulator_tab">
+<ul>
+ <li><a href="/LinkClick.aspx?fileticket=JXIVe_L616o%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Unemployed youth to apply for education assistant placement for Phase II of BEEI, 26 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=vNqIkVnQFsU%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Matric examinations timetable amended to accommodate elections, 15 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=PKRRUpPVD-E%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Department of Basic Education calls for previous NTA winners from 2000 - 2010, 06 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=Gr_XXiy7WNw%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Statement by Minister Motshekga, on learning losses since the start of the pandemic, 29 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=tzhJG-GEXHA%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">DBE and DSD brief joint sitting of Portfolio Committees on ECD function shift, 25 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=8EkSZZmiILs%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Basic Education Department releases May/June Second Chance Matric Exam Results, 24 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=E1zF3s2W1_A%3d&amp;tabid=347&amp;portalid=0&amp;mid=9333" target="_self">Department of Basic Education to launch the ECD Census 2021, 24 August 2021</a></li>
+ <li><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Newsroom/MediaReleases/English.aspx"><strong>Display all statements...</strong></a></span></span></li>
+</ul>
+</div>
+
+<div class="edsTabulator_tab">
+<ul>
+ <li><a href="/LinkClick.aspx?fileticket=_vxVEbfd2xU%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Minister Motshekga at Inaugural Meeting of 7th SA NATCOM for UNESCO, 16 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=tYasuqzFHmo%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Minister Motshekga delivered at the UNESCO International Literacy Day, 07 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=MHmWfrxF_NQ%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Minister Motshekga at Nedbank Cup Multipurpose Sports Court Handover, 03 September 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=j14jp3jrBSc%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Keynote Address by Minister Motshekga at the Seminar on Sexual Harassment and GBV, 30 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=0LsXpYMOvOs%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Deputy Minister Mhaule at the Seminar on Sexual Harassment and GBV, 30 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=5p-DiI2_LQM%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Minister Motshekga at Women in Education Leadership Conference, 27 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=QCdK1OqhYws%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Message by Minister Motshekga at the SAHRC&rsquo;s Right to Read and Write Campaign Launch, 24 August 2021</a></li>
+ <li><a href="/LinkClick.aspx?fileticket=3hS90rIspXk%3d&amp;tabid=950&amp;portalid=0&amp;mid=9716" target="_self">Address by Minister Motshekga at launch of #StandingWithTheClassOf2021, 19 August 2021</a></li>
+ <li><a href="/Newsroom/Speeches.aspx"><span style="font-size: larger;"><span style="font-family: arial;"><strong>Display all Speeches...</strong></span></span></a></li>
+</ul>
+</div>
+
+<div class="edsTabulator_tab">
+<ul>
+ <li><a href="/Newsroom/BasicEducationSectorInsights/tabid/609/ctl/Details/mid/1965/ItemID/7991/Default.aspx" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_0">Deputy editor of Sunday Times misses the mark as he exposes his lack of understanding of the basic education sector, by Elijah Mhlanga, 07 April 2021</a></li>
+ <li><a href="/Newsroom/BasicEducationSectorInsights/tabid/609/ctl/Details/mid/1965/ItemID/7990/Default.aspx" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_1">Dear Professor Jonathan Jansen, you are a major disappointment to the noble profession of researchers, by Elijah Mhlanga</a></li>
+ <li><a href="/Portals/0/Media/Preess%20Releases/RESPONDING%20TO%20Prof%20Jonathan%20Jansens%20Article.pdf" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_2" target="_new">Response to Prof Jansen&rsquo;s Article: As teachers flee or die, a new, even worse education crisis looms</a></li>
+ <li><a href="/Portals/0/Media/Preess%20Releases/professor-jansen-is-at-it-again-dbe-responds.pdf" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_3" target="_new">DBE responds to Professor Jansen&rsquo;s open letter to the Minister &ndash; &lsquo;Time to admit school year over&#39;</a></li>
+ <li><a href="/Newsroom/BasicEducationSectorInsights/tabid/609/ctl/Details/mid/1965/ItemID/7920/Default.aspx" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_4">The Safety of Learners, Educators and Workers is our Concern, by DBE Head of Communications, Mr Elijah Mhlanga, June 2020</a></li>
+ <li><a href="/Newsroom/BasicEducationSectorInsights/tabid/609/ctl/Details/mid/1965/ItemID/7919/Default.aspx" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_5">Back to school is about the future of our children by, DBE Head of Communications, Mr Elijah Mhlanga, June 2020</a></li>
+ <li><a href="/Newsroom/BasicEducationSectorInsights/tabid/609/ctl/Details/mid/1965/ItemID/7918/Default.aspx" id="dnn_ctr1965_ArticleList_ctl00_lstArticles_titleLink_6">The resilience of the class of 2020 brings hope by MEC Kwazi Mshengu, June 2020</a></li>
+ <li><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Newsroom/OpinionPieces.aspx"><strong><font color="#0066cc">Display all Opinion Pieces...</font></strong></a></span></span></li>
+</ul>
+</div>
+
+<div class="edsTabulator_tab">
+<ul>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5664/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_12" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(66, 66, 66); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2271 NA Outstanding NSC certificates, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5659/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_17" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(66, 66, 66); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2227 NA Circumcision of boy learners in KZN, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5670/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_6" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(66, 66, 66); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2375 NA Realisation of White Paper 6 on Inclusive Education, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5669/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_7" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(31, 31, 31); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2374 NA Implementation of the recommendation of the Ministerial Task Team to make History compulsory, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5665/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_11" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(31, 31, 31); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2282 NA Number of pregnant learners, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5663/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_13" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(66, 66, 66); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2270 NA Policy on educator union meetings, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5660/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_16" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(31, 31, 31); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2266 NA Disruptions due to protest action, 17 August 2018</a></li>
+ <li><a class="Normal" href="/Newsroom/ParliamentaryQuestions/tabid/297/ctl/Details/mid/7893/ItemID/5658/Default.aspx" id="dnn_ctr7893_ArticleList_ctl00_lstArticles_titleLink_18" style="margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; transition:color 0.3s linear; border-image: none; color: rgb(66, 66, 66); text-transform: none; line-height: 1.3; text-indent: 0px; letter-spacing: normal; font-family: &quot;PT Sans&quot;; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; word-spacing: 0px; vertical-align: baseline; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inherit; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; -webkit-text-stroke-width: 0px; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit;">WQ 2190 NA Home Education Policy, 17 August 2018</a></li>
+ <li><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Newsroom/ParliamentaryQuestions.aspx"><strong><font color="#0066cc">Display all Responses to Parliamentary Questions...</font></strong></a></span></span></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_3735 --></div>
+</div>
+
+</div></div>
+			</div>
+			<div class="row">
+				<div id="dnn_threeColumnLeftPane2" class="col-sm-4 eds_container DNNEmptyPane"></div>
+				<div id="dnn_threeColumnMiddlePane2" class="col-sm-4 eds_container DNNEmptyPane"></div>
+				<div id="dnn_threeColumnRightPane2" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			</div>
+		</div>
+	</div>
+	<div id="dnn_contentPane3" class="eds_contentBellow2 container-fluid eds_container DNNEmptyPane"></div>
+	<div class="eds_paralaxBackground eds_pBackground1">
+		<div id="dnn_contentPane4" class="eds_contentBellow3 container-fluid eds_container DNNEmptyPane"></div>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="dnn_leftPane4" class="col-sm-8 eds_container DNNEmptyPane"></div>
+				<div id="dnn_sidebarPane4" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="dnn_sidebarPane5" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			<div id="dnn_rightPane5" class="col-sm-8 eds_container DNNEmptyPane"></div>
+		</div>
+	</div>
+	<div id="dnn_contentPane5" class="eds_contentBellow4 container-fluid eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3746"><a name="3746"></a><div id="dnn_ctr3746_ContentPane"><!-- Start_Module_3746 --><div id="dnn_ctr3746_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3746_HtmlModule_lblContent" class="Normal">
+	<p>&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_3746 --></div>
+</div></div>
+	<div class="eds_contentBellow5Background">
+		<div id="dnn_contentPane6" class="container-fluid eds_container DNNEmptyPane"></div>
+	</div>
+	<div class="eds_paralaxBackground eds_pBackground2">
+		<div id="dnn_contentPane7" class="eds_contentBellow6 container-fluid eds_container DNNEmptyPane"></div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="dnn_leftPane8" class="col-sm-8 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3741"><a name="3741"></a>
+<div class="eds_containers_Galore eds_templateGroup_titleWithBackgroundAndCarret eds_template_TitleWithBackgroundAndCarret">
+	<h2><span id="dnn_ctr3741_dnnTITLE_titleLabel" class="eds_containerTitle">Key Programmes</span>
+
+
+</h2>
+	<div id="dnn_ctr3741_ContentPane"><!-- Start_Module_3741 --><div id="dnn_ctr3741_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3741_HtmlModule_lblContent" class="Normal">
+	<div class="row">
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Programmes/InclusiveEducation/tabid/617/Default.aspx"><img alt="" class="img-responsive" src="/portals/0/inclusiveed.jpg" /></a>Inclusive Education</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Programmes/NSNP/tabid/632/Default.aspx"><img alt="" class="img-responsive" src="/portals/0/nsnpPic.jpg" /></a>NSNP</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Programmes/SpellingBee.aspx"><img alt="" class="img-responsive" src="/portals/0/spellbee.jpg" /></a>Spelling Bee</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Curriculum/Workbooks/tabid/574/Default.aspx"><img alt="" class="img-responsive" src="/portals/0/workbooks1.jpg" /></a>Workbooks</div>
+</div>
+
+<div class="row">
+<div class="col-sm-3"><a class="eds_thumbnail" href="http://www.thutong.doe.gov.za/"><img alt="" class="img-responsive" src="/portals/0/thutongThum.jpg" /></a>Thutong</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="http://www.funzalushaka.doe.gov.za/"><img alt="" class="img-responsive" src="/portals/0/FunzaBursary.jpg" /></a>Funza Lushaka</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Programmes/SafetyinSchools/tabid/625/Default.aspx"><img alt="" class="img-responsive" src="/portals/0/schoolsafety.jpg" /></a>School Safety</div>
+
+<div class="col-sm-3"><a class="eds_thumbnail" href="/Programmes/HealthPromotion/tabid/672/Default.aspx"><img alt="" class="img-responsive" src="/portals/0/schoolhealth.jpg" /></a>Health Promotion</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_3741 --></div>
+</div>
+
+</div></div>
+			<div id="dnn_sidebarPane8" class="col-sm-4 eds_container"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3737"><a name="3737"></a>
+<div class="eds_containers_Galore eds_templateGroup_default eds_template_Default eds_style_predefined_grey">
+	<h2 class="eds_bottomBorder"><span id="dnn_ctr3737_dnnTITLE_titleLabel" class="eds_containerTitle">Quick Links</span>
+
+
+</h2>
+	<div id="dnn_ctr3737_ContentPane"><!-- Start_Module_3737 --><div id="dnn_ctr3737_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3737_HtmlModule_lblContent" class="Normal">
+	<div class="eds_Accordion eds_Accordion3">
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Examination Results</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size:larger;"><span style="font-family:arial;"><a href="/MatricResults/ExamResults.aspx">2021 Senior Certificate Exam Results</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Examination Timetables</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size:larger;"><span style="font-family:arial;"><a href="/Portals/0/Documents/Publications/Revised%202021%20NSC%20Timetable.pdf">Revised 2021 November Examinations</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Certification Services</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size: larger;"><span style="font-family: arial;"><a href="/CertificationServices/tabid/592/Default.aspx">How to apply for replacement/re-issue of certificate</a><br />
+Certification Call centre: 012&nbsp;357 4511/13<br />
+Certification email: <a href="mailto:certificationapplications@dbe.gov.za"><span style="color: rgb(0, 51, 102); text-decoration: none; text-underline: none;">certificationapplications@dbe.gov.za</span></a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Action Plan to 2024</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Documents/Publications/Sector plan 2019 15 Sep 2020.pdf">Action Plan 2024: Towards the realisation of Schooling 2030</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Government Notices</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Resources/Legislation/CallforComments/tabid/187/Default.aspx">Call for Comments</a><br />
+<a href="/Resources/Legislation/GovernmentNotices/tabid/188/Default.aspx">Determinations and Notices of Approval</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">PAIA Manual</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size: larger;"><span style="font-family: arial;"><a href="/PAIAManual/tabid/714/Default.aspx">Manuals, Forms and Fees</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Tender Bulletin</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><span style="font-size: larger;"><span style="font-family: arial;"><a href="/Tenders/AdvertisedTenders.aspx">Advertised tenders</a><br />
+<a href="/Tenders/CancelledBids.aspx">Cancelled tenders</a><br />
+<a href="/Tenders/tabid/70/Default.aspx">Closed tenders</a><br />
+<a href="/Tenders/AwardedTenders.aspx">Awarded tenders</a></span></span></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Vacancies</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/Vacancies/tabid/241/Default.aspx">Advertised vacant posts</a><br />
+<a href="/Portals/0/vacancies/Z83.pdf">Z83 Form</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">School Calendars</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/Proposed2023SchoolCalendar.aspx">Proposed 2023 School Calendar </a><br />
+<a href="/portals/0/documents/publications/Approved Final  School Calender 2021.pdf">Amended 2021 School Calendar</a><br />
+<a href="/Portals/0/Documents/Publications/2022%20School%20Calendar%20Gazette.pdf">2022 School Calendar</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Past Exam papers (Grade 12)</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/2020NSCExamPapers.aspx">2020 November NSC/SC Examination Papers</a><br />
+<a href="/2019NovExams.aspx">2019 November NSC Examination Papers</a><br />
+<a href="/2019JuneNSCExamPapers.aspx">2019 May/June NSC Examination Papers</a><br />
+<a href="/2018NSCNovemberpastpapers.aspx">2018 November NSC Examination Papers</a><br />
+<a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/2018SupplementaryExams.aspx">2018 NSC Supplementary Exams (Feb/March)</a><br />
+<a href="Home/2017NSCNovemberpastpapers.aspx">2017 November NSC Examination Papers</a><br />
+<a href="/2017FebMarchNSCExamPapers.aspx">2017 NSC Supplementary Exams (Feb/March)</a><br />
+<a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/PastExamPapers/2016NovemberNSCExaminationPapers.aspx">2016 NSC&nbsp;Exams (Oct/Nov)</a><br />
+<a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/PastExamPapers/2016FebMarchNSCExaminationPapers.aspx">2016 NSC Supplementary Exams (Feb/March)</a></div>
+
+<div class="edsAccordion_content"><a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations.aspx">All...</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">CAPS</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/Curriculum/CurriculumAssessmentPolicyStatements(CAPS)/CAPSFET/tabid/570/Default.aspx">Further Education and Training (FET)&nbsp;Phase</a><br />
+<a href="/Curriculum/CurriculumAssessmentPolicyStatements(CAPS)/CAPSSenior/tabid/573/Default.aspx">Senior Phase</a><br />
+<a href="/Curriculum/CurriculumAssessmentPolicyStatements(CAPS)/CAPSIntermediate/tabid/572/Default.aspx">Intermediate Phase</a><br />
+<a href="/Curriculum/CurriculumAssessmentPolicyStatements(CAPS)/CAPSFoundation/tabid/571/Default.aspx">Foundation Phase</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">LTSM</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/Curriculum/LearningandTeachingSupportMaterials(LTSM)/Workbooks/tabid/574/Default.aspx">Workbooks</a><br />
+<a href="/Curriculum/LearningandTeachingSupportMaterials(LTSM)/SiyavulaTextbooks/tabid/591/Default.aspx">Siyavula Resources</a><br />
+<a href="/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides/tabid/670/Default.aspx">Mind the Gap Study Guides</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Education Administration</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="http://www.thutong.doe.gov.za/Default.aspx?alias=www.thutong.doe.gov.za/administration">SA-SAMS</a></div>
+</div>
+</div>
+
+<div class="edsAccordion_section">
+<h3 class="edsAccordion_title">Research</h3>
+
+<div class="edsAccordion_contentWrapper">
+<div class="edsAccordion_content"><a href="/ResearchRepository.aspx">Research Repository</a></div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div><!-- End_Module_3737 --></div>
+</div>
+
+</div></div>
+		</div>
+	</div>
+	<div id="dnn_contentPane8" class="container-fluid DNNEmptyPane"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="dnn_sidebarLeftPane8" class="col-sm-4 eds_container DNNEmptyPane"></div>
+			<div id="dnn_rightPane8" class="col-sm-8 eds_container DNNEmptyPane"></div>
+		</div>
+	</div>
+	<div class="eds_bottomBannerBg">
+		<div id="dnn_BottomBanner" class="container-fluid eds_container DNNEmptyPane"></div>
+	</div>
+	<div id="dnn_BottomPane1" class="container-fluid eds_container DNNEmptyPane"></div>
+	<div id="dnn_BottomPane2" class="eds_bottomPaneWide DNNEmptyPane"></div>
+	<div id="dnn_BottomPane3" class="container-fluid eds_container DNNEmptyPane"></div>
+	<!-- footer_StyleWizardTemplateSection -->
+	<div class="edsFooterBackground eds_footer2 clearfix">
+		<div class="container-fluid">
+			<div class="footerBox2Container eds_firstContainer" >
+				<div id="dnn_Footer1" class="footerBox"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3779"><a name="3779"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr3779_ContentPane"><!-- Start_Module_3779 --><div id="dnn_ctr3779_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3779_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/tabid/338/Default.aspx" style="color: white;"><strong>Examinations</strong></a><br />
+<a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/tabid/338/Default.aspx" style="color: white;">Grade 12 Past Exam papers</a><br />
+<a href="/Curriculum/AnnualNationalAssessments(ANA)/tabid/569/Default.aspx" style="color: white;">ANA Exemplars</a><br />
+<a href="/MatricResults/ExamResults/tabid/175/Default.aspx" style="color: white;">Matric Results</a></p>
+
+<p style="text-align: center;"><a href="/Curriculum/NationalCurriculumStatementsGradesR-12/tabid/419/Default.aspx" style="color: white;"><strong>Curriculum</strong></a><br />
+<a href="/Curriculum/CurriculumAssessmentPolicyStatements(CAPS)/tabid/420/Default.aspx" style="color: white;">Curriculum Assessment Policy Statements</a><br />
+<a href="/Curriculum/PracticalAssessmentTasks.aspx" style="color: white;">Practical Assessment Tasks</a><br />
+<a href="/SchoolBasedAssessmentTasks2014/tabid/611/Default.aspx" style="color: white;">School Based Assessment</a><br />
+<a href="/Curriculum/LearningandTeachingSupportMaterials(LTSM)/MindtheGapStudyGuides.aspx" style="color: white;">Mind the Gap Study Guides</a><br />
+<a href="/Curriculum/LearningandTeachingSupportMaterials(LTSM)/tabid/703/Default.aspx" style="color: white;">Learning and Teaching Support Materials</a><br />
+<br />
+&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_3779 --></div>
+</div>
+</div></div>
+			</div>
+			<div class="footerBox2Container eds_secondContainer">
+				<div id="dnn_Footer2" class="footerBox eds_second"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3780"><a name="3780"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr3780_ContentPane"><!-- Start_Module_3780 --><div id="dnn_ctr3780_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3780_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><strong>Research</strong><br />
+<a href="/Programmes/EMIS.aspx" style="color: white;">EMIS</a><br />
+<a href="/Informationfor/Researcher.aspx" style="color: white;">Research Protocols</a><br />
+<a href="/Programmes/EMIS/EMISDownloads.aspx" style="color: white;">Schools Masterlist Data</a></p>
+
+<p style="text-align: center;"><a href="/Informationfor/Teachers/InitialTeacherEducation/tabid/416/Default.aspx" style="color: white;"><strong>Teacher Development</strong></a><br />
+<a href="/Informationfor/Teachers/InitialTeacherEducation/tabid/416/Default.aspx" style="color: white;">Initial Teacher Education</a><br />
+<a href="/Informationfor/Teachers/UnemployedEducators/tabid/603/Default.aspx" style="color: white;">National Recruitment Database</a><br />
+<a href="/Informationfor/Teachers/NationalTeachingAwards/tabid/441/Default.aspx" style="color: white;">National Teaching Awards</a><br />
+<a href="/Informationfor/Teachers/Registerasaneducator/tabid/417/Default.aspx" style="color: white;">Register as an Educator</a></p>
+
+</div>
+
+</div><!-- End_Module_3780 --></div>
+</div>
+</div></div>
+			</div>
+			<div class="eds_footerBoxSeparator"></div>
+			<div class="footerBox2Container eds_thirdContainer">
+				<div id="dnn_Footer3" class="footerBox"><div class="DnnModule DnnModule-DNN_HTML DnnModule-7824"><a name="7824"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr7824_ContentPane"><!-- Start_Module_7824 --><div id="dnn_ctr7824_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr7824_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><a href="/Curriculum/NationalSeniorCertificate(NSC)Examinations/tabid/338/Default.aspx" style="color: white;"><strong>Information for...</strong></a><br />
+<a href="/Informationfor/CertificationServices.aspx" style="color: white;">Certification Services</a><br />
+<a href="/Informationfor/Learners.aspx" style="color: white;">Learners</a><br />
+<a href="/Informationfor/Teachers.aspx" style="color: white;">Teachers</a><br />
+<a href="/MatricResults/ExamResults/tabid/175/Default.aspx" style="color: white;">Parents and Guardians</a><br />
+ <a href="/Informationfor/Principals.aspx" style="color: white;">Principals</a><br />
+<a href="/Informationfor/EducationDistricts.aspx" style="color: white;">Education Districts</a><br />
+<a href="/Informationfor/SGBs.aspx" style="color: white;">SGB&#39;s</a><br />
+<a href="/Informationfor/Researcher.aspx" style="color: white;">Researcher</a></p>
+
+</div>
+
+</div><!-- End_Module_7824 --></div>
+</div>
+</div></div>
+			</div>
+			<div class="footerBox2Container eds_lastContainer">
+				<div id="dnn_Footer4" class="footerBox eds_last"><div class="DnnModule DnnModule-DNN_HTML DnnModule-3747"><a name="3747"></a>
+<div class="eds_containers_Galore eds_templateGroup_noTitle eds_template_NoTitle">
+	<div id="dnn_ctr3747_ContentPane"><!-- Start_Module_3747 --><div id="dnn_ctr3747_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr3747_HtmlModule_lblContent" class="Normal">
+	<p style="text-align: center;"><strong>National Office</strong><br />
+Address: 222 Struben Street, Pretoria<br />
+Call Centre: 0800 202 933 | callcentre@dbe.gov.za<br />
+Switchboard: 012 357 3000</p>
+
+<p style="text-align: center;"><strong>Certification</strong><br />
+certification@dbe.gov.za<br />
+012 357 4511/3</p>
+
+<p style="text-align: center;"><a href="http://www.gov.za/about-government/government-system/national-departments" style="color: white;"><strong>Government Departments</strong></a><br />
+<a href="/AboutUs/ProvincialDepartments.aspx" style="color: white;">Provincial Departments of Education</a><br />
+<a href="http://www.gov.za/welcome-official-government-online-site" style="color: white;">Government Services</a></p>
+
+<p>&nbsp;</p>
+
+</div>
+
+</div><!-- End_Module_3747 --></div>
+</div>
+</div></div>
+			</div>
+		</div>
+	</div>
+	<div class="edsCopyrightBg edsCopyrightBg2">
+		<div class="edsCopyright container-fluid clearfix">
+			<div>
+				<span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">Copyright: Department of Basic Education 2021</span>
+
+				<a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="https://www.education.gov.za/terms.aspx">Terms Of Use</a>
+				<a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="https://www.education.gov.za/privacy.aspx">Privacy Statement</a>
+			</div>
+			<div id="dnn_Footer" class="eds_footerPane DNNEmptyPane"></div>
+		</div>
+	</div>
+<!-- footer_StyleWizardTemplateSectionEnd -->
+</div>
+
+
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" />
+        
+    </form>
+    <!--CDF(Javascript|/js/dnncore.js?cdv=110)--><!--CDF(Javascript|/js/dnn.modalpopup.js?cdv=110)--><!--CDF(Css|/Resources/Shared/stylesheets/dnndefault/7.0.0/default.css?cdv=110)--><!--CDF(Css|/Portals/_default/Skins/Galore/skin.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/_default/Containers/Galore/container.css?cdv=110)--><!--CDF(Css|/Portals/0/portal.css?cdv=110)--><!--CDF(Javascript|/Resources/libraries/jQuery-UI/01_11_03/jquery-ui.js?cdv=110)--><!--CDF(Javascript|/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=110)-->
+    
+</body>
+</html>

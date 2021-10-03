@@ -22,47 +22,31 @@ class AuthScreen extends GetView<AuthController> {
       shrinkWrap: true,
       padding: EdgeInsets.symmetric(horizontal: 30.0),
       children: [
-        Icon(
-          Icons.home,
-          size: SizeConfig().screenWidth * 0.26,
-          color: Colors.blueGrey,
-        ),
+        Container(
+            width: Get.width,
+            height: 200,
+            child: Image.asset("assets/images/logo.png")),
         SizedBox(height: 20.0),
         Text(
-          'Welcome',
+          'Learner Support Material',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: CommonConstants.largeText,
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).textTheme.headline6!.color,
-          ),
-        ),
-        SizedBox(height: 10.0),
-        Text(
-          'Let\'s start now!',
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: CommonConstants.normalText,
-            color: Theme.of(context).textTheme.subtitle1!.color,
+            color: Theme.of(context).textTheme.headline4!.color,
           ),
         ),
         SizedBox(height: 50.0),
-        GradientButton(
-          text: 'Sign In',
-          onPressed: () {
-            Get.toNamed(Routes.AUTH + Routes.LOGIN, arguments: controller);
-          },
-        ),
         SizedBox(height: 20.0),
         BorderButton(
-          text: 'Sign Up',
+          text: 'Get Started',
           onPressed: () {
-            Get.toNamed(Routes.AUTH + Routes.REGISTER, arguments: controller);
+            Get.toNamed(Routes.HOME);
           },
         ),
         SizedBox(height: 62.0),
         Text(
-          'This is a demo only used for test.',
+          '',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: CommonConstants.smallText,

@@ -1,5 +1,9 @@
 import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
-import 'package:flutter_getx_boilerplate/modules/home/home.dart';
+import 'package:flutter_getx_boilerplate/modules/books/book_detail.dart';
+import 'package:flutter_getx_boilerplate/modules/books/books_bindings.dart';
+import 'package:flutter_getx_boilerplate/modules/books/books_screen.dart';
+import 'package:flutter_getx_boilerplate/modules/home/home_screen.dart';
+//import 'package:flutter_getx_boilerplate/modules/home/home.dart';
 import 'package:flutter_getx_boilerplate/modules/me/cards/cards_screen.dart';
 import 'package:flutter_getx_boilerplate/modules/modules.dart';
 import 'package:get/get.dart';
@@ -25,11 +29,11 @@ class AppPages {
       ],
     ),
     GetPage(
-        name: Routes.HOME,
-        page: () => HomeScreen(),
-        binding: HomeBinding(),
-        children: [
-          GetPage(name: Routes.CARDS, page: () => CardsScreen()),
-        ]),
+        name: Routes.MY_BOOKS,
+        page: () => BooksScreen(),
+        binding: BooksBinding()),
+    GetPage(name: Routes.HOME, page: () => HomeScreen()),
+    GetPage(name: Routes.BOOK_VIEW, page: () => BookViewScreen()),
+    // binding: HomeBinding(),
   ];
 }
