@@ -29,12 +29,11 @@ class HomeScreen extends GetView<BooksController> {
       child: Scaffold(
         body: Container(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Padding(
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.all(10),
                 child: Container(
-                  height: 100,
+                  height: 150,
                   decoration: BoxDecoration(
                       color: Colors.grey,
                       image: DecorationImage(
@@ -44,6 +43,9 @@ class HomeScreen extends GetView<BooksController> {
                   width: Get.width,
                 ),
               ),
+              SizedBox(
+                height: 30,
+              ),
               Container(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -51,7 +53,7 @@ class HomeScreen extends GetView<BooksController> {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        Get.toNamed("/books");
+                        Get.toNamed("/foundation_phase");
                       },
                       child: Padding(
                         padding: const EdgeInsets.all(20.0),
@@ -59,6 +61,10 @@ class HomeScreen extends GetView<BooksController> {
                             height: 60,
                             width: Get.width,
                             decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    image: AssetImage(
+                                        "assets/images/foundation_phase.jpg"),
+                                    fit: BoxFit.cover),
                                 color: ColorConstants.darkGray,
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(10))),
@@ -70,7 +76,7 @@ class HomeScreen extends GetView<BooksController> {
                                   'Foundation Phase',
                                   style: TextStyle(
                                     fontSize: 25,
-                                    color: Colors.white,
+                                    color: Colors.black,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
@@ -88,17 +94,24 @@ class HomeScreen extends GetView<BooksController> {
                             height: 60,
                             width: Get.width,
                             decoration: BoxDecoration(
-                              color: ColorConstants.darkGray,
-                            ),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(10)),
+                                color: ColorConstants.darkGray,
+                                image: DecorationImage(
+                                  fit: BoxFit.cover,
+                                  image: AssetImage(
+                                    "assets/images/intermediate.png",
+                                  ),
+                                )),
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Text(
-                                  'Intermidate Phase',
+                                  'Intermidiate Phase',
                                   style: TextStyle(
                                     fontSize: 25,
-                                    color: Colors.white,
+                                    color: Colors.black,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
@@ -106,51 +119,77 @@ class HomeScreen extends GetView<BooksController> {
                             )),
                       ),
                     ),
-                    Padding(
-                      padding: EdgeInsets.all(20),
-                      child: Container(
-                          height: 60,
-                          width: Get.width,
-                          decoration: BoxDecoration(
-                            color: ColorConstants.darkGray,
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(
-                                'Senior Phase',
-                                style: TextStyle(
-                                  fontSize: 25,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
+                    GestureDetector(
+                      onTap: () {
+                        Get.toNamed("/senior_phase");
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(20),
+                        child: Container(
+                            height: 60,
+                            width: Get.width,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              image: DecorationImage(
+                                fit: BoxFit.cover,
+                                image: AssetImage(
+                                  "assets/images/senior.png",
                                 ),
                               ),
-                            ],
-                          )),
+                              color: ColorConstants.darkGray,
+                            ),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'Senior Phase',
+                                  style: TextStyle(
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            )),
+                      ),
                     ),
-                    Padding(
-                      padding: EdgeInsets.all(20),
-                      child: Container(
-                          height: 60,
-                          width: Get.width,
-                          decoration: BoxDecoration(
-                            color: ColorConstants.darkGray,
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(
-                                'FET Phase',
-                                style: TextStyle(
-                                  fontSize: 25,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
+                    GestureDetector(
+                      onTap: () {
+                        Get.toNamed("/fet_phase");
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.all(20),
+                        child: Container(
+                            height: 60,
+                            width: Get.width,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                fit: BoxFit.cover,
+                                image: AssetImage(
+                                  "assets/images/fet.jpeg",
                                 ),
                               ),
-                            ],
-                          )),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(10)),
+                              color: ColorConstants.darkGray,
+                            ),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Text(
+                                  'FET Phase',
+                                  style: TextStyle(
+                                    fontSize: 25,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            )),
+                      ),
                     ),
                   ],
                 ),

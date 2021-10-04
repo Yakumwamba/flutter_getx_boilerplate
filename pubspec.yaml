@@ -38,8 +38,10 @@ dependencies:
   cached_network_image: ^3.0.0
   epub_viewer: 
   path: ^1.6.4
-  ext_storage:
-  flutter_file_manager: ^0.2.0
+  permission_handler: ^8.1.6
+  path_provider: ^2.0.5
+  #flutter_file_manager: ^0.2.0
+  file_manager: ^1.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,7 @@
+import 'dart:io';
+
+import 'package:file_manager/controller/file_manager_controller.dart';
+import 'package:file_manager/file_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
 import 'package:flutter_getx_boilerplate/modules/books/books_controller.dart';
@@ -10,8 +14,8 @@ import 'package:get/get.dart';
 import 'components/my_links.dart';
 
 class BooksScreen extends GetView<BooksController> {
-  // BooksController controller = Get.find();
-
+  BooksController controller = Get.find();
+  // controller.fileManagercontroller.setCurrentPath = "/storage/emulated/0/LSM";
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -20,6 +24,43 @@ class BooksScreen extends GetView<BooksController> {
           child: _buildItems(context),
         ),
       ),
+    );
+  }
+
+  buildFileManager() {
+    final FileManagerController fileManagercontroller = FileManagerController();
+    //fileManagercontroller.setCurrentPath = "/storage/emulated/0/";
+    fileManagercontroller.setCurrentPath = "/storage/emulated/0/GradeR";
+    fileManagercontroller
+        .openDirectory(Directory(fileManagercontroller.getCurrentPath));
+
+    // controller.openDirectory(directory);
+    return FileManager(
+      controller: fileManagercontroller,
+      builder: (context, snapshot) {
+        final List<FileSystemEntity> entities = snapshot;
+        return ListView.builder(
+          itemCount: entities.length,
+          itemBuilder: (context, index) {
+            return Card(
+              child: ListTile(
+                leading: FileManager.isFile(entities[index])
+                    ? Icon(Icons.feed_outlined)
+                    : Icon(Icons.folder),
+                title: Text(FileManager.basename(entities[index])),
+                onTap: () {
+                  if (FileManager.isDirectory(entities[index])) {
+                    fileManagercontroller
+                        .openDirectory(entities[index]); // open directory
+                  } else {
+                    // Perform file-related tasks.
+                  }
+                },
+              ),
+            );
+          },
+        );
+      },
     );
   }
 
@@ -115,7 +156,7 @@ class BooksScreen extends GetView<BooksController> {
                                       color: Colors.grey, width: 0.5))),
                           child: TabBarView(children: <Widget>[
                             Container(
-                              child: MyBooks(),
+                              child: Container(child: buildFileManager()),
                             ),
                             Container(child: MyVideos()),
                             Container(child: MyLinks()),

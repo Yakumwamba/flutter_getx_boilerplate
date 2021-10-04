@@ -41,7 +41,7 @@ class MyBooks extends StatelessWidget {
                     itemCount: 10,
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
-                        onTap: () => {},
+                        onTap: () => {booksController.showEpub()},
                         child: Container(
                           height: 100,
                           color: Colors.grey[300],
@@ -94,8 +94,9 @@ class MyBooks extends StatelessWidget {
                     },
                     separatorBuilder: (BuildContext context, int index) =>
                         const Divider(
-                      height: 10,
-                      color: Colors.green,
+                      height: 5,
+                      color: Colors.grey,
+                      thickness: 5,
                     ),
                   ),
                 ),
