@@ -28,11 +28,11 @@ class BooksScreen extends GetView<BooksController> {
   }
 
   buildFileManager() {
-    final FileManagerController fileManagercontroller = FileManagerController();
+    FileManagerController fileManagercontroller = FileManagerController();
     //fileManagercontroller.setCurrentPath = "/storage/emulated/0/";
     fileManagercontroller.setCurrentPath = "/storage/emulated/0/GradeR";
-    fileManagercontroller
-        .openDirectory(Directory(fileManagercontroller.getCurrentPath));
+    // fileManagercontroller
+    //     .openDirectory(Directory(fileManagercontroller.getCurrentPath));
 
     // controller.openDirectory(directory);
     return FileManager(
@@ -42,20 +42,45 @@ class BooksScreen extends GetView<BooksController> {
         return ListView.builder(
           itemCount: entities.length,
           itemBuilder: (context, index) {
-            return Card(
-              child: ListTile(
-                leading: FileManager.isFile(entities[index])
-                    ? Icon(Icons.feed_outlined)
-                    : Icon(Icons.folder),
-                title: Text(FileManager.basename(entities[index])),
+            print(FileManager.basename(entities[index]));
+            if (FileManager.basename(entities[index]) == "GradeR") {
+              fileManagercontroller.openDirectory(entities[index]);
+              return Text("Found");
+            }
+            return Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: GestureDetector(
                 onTap: () {
-                  if (FileManager.isDirectory(entities[index])) {
-                    fileManagercontroller
-                        .openDirectory(entities[index]); // open directory
-                  } else {
-                    // Perform file-related tasks.
-                  }
+                  fileManagercontroller.openDirectory(entities[index]);
                 },
+                child: Container(
+                    height: 100,
+                    color: Colors.grey[200],
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            FileManager.basename(entities[index]),
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            'PDF',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.grey,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    )),
               ),
             );
           },

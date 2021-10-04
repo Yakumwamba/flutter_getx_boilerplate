@@ -34,7 +34,7 @@ class BooksController extends GetxController {
   }
 
   getPhaseDirectory() async {
-    Directory directory = Directory("/");
+    Directory directory = Directory("/storage/emulated/0/");
     try {
       if (Platform.isAndroid) {
         if (await _requestPermission(Permission.storage)) {
@@ -54,7 +54,7 @@ class BooksController extends GetxController {
             }
           }
           print(directory.listSync());
-          newPath = newPath + "/LSM";
+          newPath = newPath + "/GradeR";
           directory = Directory(newPath);
           print(directory.path);
         }
@@ -123,7 +123,7 @@ class BooksController extends GetxController {
   Future<void> onInit() async {
     super.onInit();
     print("Path to the download is : ");
-    // getPhaseDirectory();
+    _requestPermission(Permission.storage);
     EpubViewer.setConfig(
         themeColor: Get.theme.primaryColor,
         identifier: "iosBook",
