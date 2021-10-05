@@ -4,6 +4,6 @@ import 'package:get/get.dart';
 class BooksBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<BooksController>(() => BooksController());
+    Get.put<BooksController>(BooksController(), permanent: true);
   }
 }

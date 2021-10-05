@@ -28,7 +28,27 @@ class MyBooks extends StatelessWidget {
                 child: Container(
                   height: 100,
                   child: Center(
-                    child: Text("Search here"),
+                    child: Container(
+                      width: double.infinity,
+                      height: 40,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(5)),
+                      child: Center(
+                        child: TextField(
+                          decoration: InputDecoration(
+                              prefixIcon: Icon(Icons.search),
+                              suffixIcon: IconButton(
+                                icon: Icon(Icons.clear),
+                                onPressed: () {
+                                  /* Clear the search field */
+                                },
+                              ),
+                              hintText: 'Search...',
+                              border: InputBorder.none),
+                        ),
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -41,7 +61,7 @@ class MyBooks extends StatelessWidget {
                     itemCount: 10,
                     itemBuilder: (BuildContext context, int index) {
                       return GestureDetector(
-                        onTap: () => {booksController.showEpub()},
+                        onTap: () => {},
                         child: Container(
                           height: 100,
                           color: Colors.grey[300],

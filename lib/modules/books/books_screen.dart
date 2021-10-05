@@ -1,23 +1,25 @@
 import 'dart:io';
-
-import 'package:file_manager/controller/file_manager_controller.dart';
+import 'package:path/path.dart' as p;
 import 'package:file_manager/file_manager.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
+
 import 'package:flutter_getx_boilerplate/modules/books/books_controller.dart';
 import 'package:flutter_getx_boilerplate/modules/books/components/my_books.dart';
 import 'package:flutter_getx_boilerplate/modules/books/components/my_videos.dart';
-import 'package:flutter_getx_boilerplate/routes/routes.dart';
-import 'package:flutter_getx_boilerplate/shared/shared.dart';
+import 'package:flutter_getx_boilerplate/modules/books/components/pdfViewer.dart';
+
 import 'package:get/get.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 import 'components/my_links.dart';
 
 class BooksScreen extends GetView<BooksController> {
-  BooksController controller = Get.find();
   // controller.fileManagercontroller.setCurrentPath = "/storage/emulated/0/LSM";
   @override
   Widget build(BuildContext context) {
+    // controller.fileManagercontroller.setCurrentPath =
+    //     '/storage/emulated/0/GradeR';
+
     return SafeArea(
       child: Scaffold(
         body: Center(
@@ -28,64 +30,167 @@ class BooksScreen extends GetView<BooksController> {
   }
 
   buildFileManager() {
-    FileManagerController fileManagercontroller = FileManagerController();
     //fileManagercontroller.setCurrentPath = "/storage/emulated/0/";
-    fileManagercontroller.setCurrentPath = "/storage/emulated/0/GradeR";
-    // fileManagercontroller
-    //     .openDirectory(Directory(fileManagercontroller.getCurrentPath));
 
-    // controller.openDirectory(directory);
-    return FileManager(
-      controller: fileManagercontroller,
-      builder: (context, snapshot) {
-        final List<FileSystemEntity> entities = snapshot;
-        return ListView.builder(
-          itemCount: entities.length,
-          itemBuilder: (context, index) {
-            print(FileManager.basename(entities[index]));
-            if (FileManager.basename(entities[index]) == "GradeR") {
-              fileManagercontroller.openDirectory(entities[index]);
-              return Text("Found");
-            }
-            return Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: GestureDetector(
-                onTap: () {
-                  fileManagercontroller.openDirectory(entities[index]);
-                },
+    //print(fileManagercontroller);
+
+    // fileManagercontroller.openDirectory(Directory("GradeR"));
+// WidgetsBinding.instance!.addPostFrameCallback((_){
+
+//   // Add Your Code here.
+
+// });
+    return Container(
+      height: Get.height,
+      width: Get.width,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          // Padding(
+          //   padding: const EdgeInsets.all(8.0),
+          //   child: ValueListenableBuilder<String>(
+          //     valueListenable: controller.fileManagercontroller.titleNotifier,
+          //     builder: (context, title, _) => Text(title),
+          //   ),
+          // ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 60,
+              child: Center(
                 child: Container(
-                    height: 100,
-                    color: Colors.grey[200],
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            FileManager.basename(entities[index]),
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
+                  width: double.infinity,
+                  height: 40,
+                  decoration: BoxDecoration(
+                      boxShadow: [BoxShadow(blurRadius: 0.1)],
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(5)),
+                  child: Center(
+                    child: TextField(
+                      decoration: InputDecoration(
+                          prefixIcon: Icon(Icons.search),
+                          suffixIcon: IconButton(
+                            icon: Icon(Icons.clear),
+                            onPressed: () {
+                              /* Clear the search field */
+                            },
                           ),
-                          Text(
-                            'PDF',
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.grey,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ],
-                      ),
-                    )),
+                          hintText: 'Search...',
+                          border: InputBorder.none),
+                    ),
+                  ),
+                ),
               ),
-            );
-          },
-        );
-      },
+            ),
+          ),
+          FileManager(
+            controller: controller.fileManagercontroller,
+            builder: (context, snapshot) {
+              final List<FileSystemEntity> entities = snapshot;
+
+              return Expanded(
+                child: Container(
+                  child: ListView.builder(
+                    itemCount: entities.length,
+                    itemBuilder: (context, index) {
+                      print(FileManager.basename(entities[index]));
+                      // if (FileManager.basename(entities[index]) == "GradeR") {
+                      //   fileManagercontroller.openDirectory(entities[index]);
+                      //   return Text("Found");
+                      // }
+
+                      print(entities[index].statSync().type);
+
+                      return Padding(
+                        padding: EdgeInsets.all(8.0),
+                        child: GestureDetector(
+                          onTap: () {
+                            if (FileManager.isFile(entities[index])) {
+                              var fileType = entities[index].path;
+                              final extension =
+                                  p.extension(fileType); // '.dart'
+                              print("the extension is  :" + extension);
+                              if (extension == '.epub') {
+                                controller.showEpub(entities[index].path);
+                              }
+
+                              if (extension == '.pdf') {
+                                Get.to(() => PDFViewer(
+                                    fileToLoad: File(entities[index].path)));
+                              }
+
+                              print("Is file");
+                              return;
+                            }
+                            controller.fileManagercontroller
+                                .openDirectory(entities[index]);
+                          },
+                          child: Container(
+                              height: 100,
+                              color: Colors.grey[200],
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  children: [
+                                    Container(
+                                      height: 100,
+                                      width: 70,
+                                      decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          image: DecorationImage(
+                                              image: AssetImage(
+                                                  'assets/images/logo.png')),
+                                          borderRadius: BorderRadius.all(
+                                              Radius.circular(8))),
+                                    ),
+                                    SizedBox(
+                                      width: 10,
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceAround,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            width: Get.width,
+                                            child: Text(
+                                              FileManager.basename(
+                                                  entities[index]),
+                                              softWrap: false,
+                                              style: TextStyle(
+                                                overflow: TextOverflow.fade,
+                                                fontSize: 20,
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ),
+                                          Text(
+                                            'PDF',
+                                            style: TextStyle(
+                                              fontSize: 14,
+                                              color: Colors.grey,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              )),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              );
+            },
+          ),
+        ],
+      ),
     );
   }
 
