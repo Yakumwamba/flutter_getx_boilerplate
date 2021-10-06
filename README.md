@@ -1,4 +1,4 @@
-# Book Reader
+# Book Reader with GetX
 
 
 
