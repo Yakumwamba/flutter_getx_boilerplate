@@ -44,7 +44,8 @@ class BooksScreen extends GetView<BooksController> {
       height: Get.height,
       width: Get.width,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Padding(
           //   padding: const EdgeInsets.all(8.0),
@@ -100,7 +101,34 @@ class BooksScreen extends GetView<BooksController> {
                       // }
 
                       print(entities[index].statSync().type);
+                      String strippedString = entities[index].path.toString();
 
+                      if (strippedString != null &&
+                          strippedString.length >= 4) {
+                        var fileType = entities[index].path;
+                        final extension = p.extension(fileType);
+
+                        if (extension == '.epub') {
+                          // controller.showEpub(entities[index].path);
+                          strippedString = strippedString.substring(
+                              0, strippedString.length - 5);
+
+                          print("url path " + strippedString.split("/").last);
+                        }
+
+                        if (extension == '.pdf') {
+                          // Get.to(() => PDFViewer(
+                          //     fileToLoad: File(entities[index].path)));
+
+                          strippedString = strippedString.substring(
+                              0, strippedString.length - 4);
+                          print("url path " +
+                              strippedString +
+                              "/imgs/" +
+                              strippedString.split("/").last +
+                              ".PNG");
+                        }
+                      }
                       return Padding(
                         padding: EdgeInsets.all(8.0),
                         child: GestureDetector(
@@ -133,16 +161,22 @@ class BooksScreen extends GetView<BooksController> {
                                 child: Row(
                                   children: [
                                     Container(
-                                      height: 100,
-                                      width: 70,
-                                      decoration: BoxDecoration(
-                                          color: Colors.white,
-                                          image: DecorationImage(
-                                              image: AssetImage(
-                                                  'assets/images/logo.png')),
-                                          borderRadius: BorderRadius.all(
-                                              Radius.circular(8))),
-                                    ),
+                                        height: 100,
+                                        width: 70,
+                                        decoration: BoxDecoration(
+                                            color: Colors.white,
+                                            // image: DecorationImage(
+                                            //   image: AssetImage(
+                                            //       'assets/images/books.png'),
+                                            // ),
+                                            borderRadius: BorderRadius.all(
+                                                Radius.circular(8))),
+                                        child: Image.asset("assets/images/" +
+                                            strippedString
+                                                .split("/")
+                                                .last
+                                                .replaceAll(' ', '') +
+                                            ".png")),
                                     SizedBox(
                                       width: 10,
                                     ),

@@ -26,12 +26,12 @@ class BooksController extends GetxController {
 
     _requestPermission(Permission.storage);
     EpubViewer.setConfig(
-        themeColor: Get.theme.primaryColor,
+        themeColor: Get.theme.dialogBackgroundColor,
         identifier: "iosBook",
-        scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+        scrollDirection: EpubScrollDirection.VERTICAL,
         allowSharing: true,
         enableTts: true,
-        nightMode: true);
+        nightMode: false);
     fileManagercontroller = FileManagerController();
 
     WidgetsBinding.instance!.addPostFrameCallback((_) {});

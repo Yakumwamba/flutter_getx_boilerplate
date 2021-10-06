@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_boilerplate/modules/auth/auth.dart';
+
 import 'package:flutter_getx_boilerplate/modules/books/books_controller.dart';
-import 'package:flutter_getx_boilerplate/modules/books/components/my_books.dart';
-import 'package:flutter_getx_boilerplate/modules/books/components/my_videos.dart';
-import 'package:flutter_getx_boilerplate/routes/routes.dart';
+
 import 'package:flutter_getx_boilerplate/shared/shared.dart';
 import 'package:get/get.dart';
 
