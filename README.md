@@ -1,6 +1,6 @@
 # Book Reader
 
-**Languages: English (this file), [中文](README.zh-cn.md).**
+
 
 ## Introduction
 
